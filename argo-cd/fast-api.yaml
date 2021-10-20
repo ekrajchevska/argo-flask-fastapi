@@ -8,7 +8,7 @@ metadata:
 spec:
   project: staging
   source:
-    repoURL: https://github.com/ekrajchevska/argo-gitops
+    repoURL: https://github.com/ekrajchevska/fastapi-auth
     targetRevision: HEAD
     path: deployment
   destination:
