@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: fastapi-auth
+  name: fast-api
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
