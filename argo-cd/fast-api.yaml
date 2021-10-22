@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/ekrajchevska/fastapi-auth
     targetRevision: HEAD
-    path: deployment
+    path: manifests # same
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
