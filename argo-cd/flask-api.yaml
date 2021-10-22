@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/ekrajchevska/flask-products
     targetRevision: HEAD
-    path: manifests    # smeni so manifests
+    path: manifests    # smeni so manifests, ova e pateka do deploymentot
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
